@@ -1,0 +1,146 @@
+*{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.em{
+/*    color: lightgrey;*/
+}
+
+.header{
+/*    font-family: "Pump"*/
+    font-size: 7vw;
+    margin-left: 4vw;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-shadow: .4vw .4vw lightgrey;
+}
+
+.navBar{
+    background-color: whitesmoke;
+/*    background-color: thistle;*/
+}
+.navText {
+    color: darkgrey;
+    font-style: bold;
+    font-size: 2vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+li{
+    display:block;
+    padding: 4vw;
+    text-align: center;
+}
+
+/*
+#techPic{
+    width: 100%
+}
+*/
+
+.name {
+    font-size: 10vw;
+    text-align: center;
+    text-shadow: .5vw .5vw lightgrey;
+/*    position: absolute;*/
+}
+
+.intro{
+    font-size: 3vw;
+    padding: 2vw;
+    text-align: center;
+    background-color: whitesmoke;
+/*    color: white;*/
+}
+
+.arrow{
+    color: thistle;
+    width: 10vw;
+    display: block;
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+/*    position:absolute;*/
+}
+
+
+.info{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sydPic{
+    width: 45vw;
+/*    border-radius: 15px;*/
+    box-shadow: 12px 12px whitesmoke;
+}
+
+.meInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw;
+/*    background-color: darkgrey;*/
+}
+
+#meText{
+/*    color: darkgrey;*/
+    font-size: 2.5vw;
+    background-color: whitesmoke;
+    box-shadow: 12px 12px lightgrey;
+    padding: 4vw;
+}
+
+.item{
+    margin: 4vw;
+}
+
+/*
+.designPicR{
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+*/
+
+.designPic{
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.resuDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume{
+    width:75vw;
+    margin-bottom: 0;
+/*    box-shadow: 12px 12px 10px lightgrey;*/
+}
+
+#resuText{
+    font-size: 2vw;
+}
